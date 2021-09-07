@@ -1,4 +1,4 @@
-# logfoldchange_app
+# foldchange_app
 
 ##### Description
 
