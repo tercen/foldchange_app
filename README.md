@@ -10,7 +10,7 @@ The application consists of a data input, a workflow and a data output.
 
 The input data is the [ptk dataset](https://tercen.com/r/755fd3d3f7ad2d91cc89e0cae4b4c9b8)
 
-This workflow has 4 operators:
+This workflow has 3 operators:
 - [identity_operator](https://github.com/tercen/identity_operator)
 - [ratio_operator](https://github.com/tercen/ratio_operator)
 - [mean_operator](https://github.com/tercen/mean_operator)
