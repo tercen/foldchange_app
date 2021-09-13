@@ -12,7 +12,7 @@ The input data is the [ptk dataset](https://tercen.com/r/755fd3d3f7ad2d91cc89e0c
 
 This workflow has 4 operators:
 - [identity_operator](https://github.com/tercen/identity_operator)
-- [minus_operator](https://github.com/tercen/minus_operator)
+- [ratio_operator](https://github.com/tercen/ratio_operator)
 - [mean_operator](https://github.com/tercen/mean_operator)
 
 ##### See Also
