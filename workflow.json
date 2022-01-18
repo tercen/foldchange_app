@@ -2,9 +2,9 @@
   "kind": "Workflow",
   "id": "33fb64086c3295748ed979a87b5f1733",
   "isDeleted": false,
-  "rev": "30-d0916fbee2ac23296fde3c9f712d2221",
+  "rev": "70-d4ec88258bcecd6b33461b003b2a4e49",
   "description": "Calulates the ratio (fold change) between a control and treatment condition.",
-  "name": "Fold Change_generic",
+  "name": "Fold Change_app",
   "createdBy": "Martin",
   "acl": {
     "kind": "Acl",
@@ -17,7 +17,7 @@
   },
   "lastModifiedDate": {
     "kind": "Date",
-    "value": "2021-10-14T14:12:56.533386Z"
+    "value": "2022-01-17T13:43:06.493646Z"
   },
   "urls": [
     {
@@ -62,21 +62,21 @@
     },
     {
       "kind": "Link",
-      "id": "f77b958d-f2c0-4003-b6a9-d6470cbac09e",
+      "id": "68c571df-6e05-4f8a-a4e4-df85c37dc403",
+      "inputId": "1c7695ab-a508-43bc-a516-be741a6c1aa8-i-0",
+      "outputId": "43d6f522-32c3-4aaf-9c3e-a66882714025-o-0"
+    },
+    {
+      "kind": "Link",
+      "id": "825dffdf-8af7-4e7f-be8f-d8bbccdcf240",
       "inputId": "c9dab302-252b-43da-87c5-01a26821511b-i-0",
       "outputId": "a5c00b42-ba00-499d-a6fd-2ef068ae2dda-o-0"
     },
     {
       "kind": "Link",
-      "id": "0e58c9a0-789f-42aa-90a2-bc3cc3872259",
+      "id": "8f7cb289-615a-45d0-81aa-0843e911a334",
       "inputId": "43d6f522-32c3-4aaf-9c3e-a66882714025-i-0",
       "outputId": "6aa6d2e6-ef59-4c11-bae5-5ca61b7b4043-o-0"
-    },
-    {
-      "kind": "Link",
-      "id": "68c571df-6e05-4f8a-a4e4-df85c37dc403",
-      "inputId": "1c7695ab-a508-43bc-a516-be741a6c1aa8-i-0",
-      "outputId": "43d6f522-32c3-4aaf-9c3e-a66882714025-o-0"
     }
   ],
   "steps": [
@@ -110,8 +110,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 643.3979296875004,
-          "y": 479.5
+          "x": 638.3979296875004,
+          "y": 484.5
         }
       },
       "state": {
@@ -152,7 +152,7 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 103.185546875,
+          "x": 100.62580871582031,
           "y": 55.0
         },
         "topLeft": {
@@ -328,7 +328,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -398,13 +399,14 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "553ca06f-fe90-4bbb-8b89-2b5d35ba04bb"
+        "id": "ff9da5ce-d558-4664-81ec-6b5cae45e759"
       }
     },
     {
@@ -432,13 +434,13 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 102.705078125,
+          "x": 99.9818115234375,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
-          "x": 633.6926171875002,
-          "y": 259.5
+          "x": 634.6926171875002,
+          "y": 276.5
         }
       },
       "state": {
@@ -733,7 +735,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -784,13 +787,14 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "6a542f61-6f14-46fd-be28-ca7bffb0cd1d"
+        "id": "94fc7507-51bb-40f3-afcb-49336c0440a3"
       }
     },
     {
@@ -823,8 +827,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 642.8802343750003,
-          "y": 366.5
+          "x": 639.8802343750003,
+          "y": 376.5
         }
       },
       "state": {
@@ -994,7 +998,8 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "filters": {
           "kind": "Filters",
@@ -1045,13 +1050,14 @@
               }
             }
           ],
-          "rectangleSelections": []
+          "rectangleSelections": [],
+          "nRows": 0
         },
         "taskId": ""
       },
       "computedRelation": {
         "kind": "Relation",
-        "id": "b5687966-6124-4374-af74-8d4581f27305"
+        "id": "4f68bdc5-93a2-497c-863e-608131e46fd9"
       }
     },
     {
@@ -1079,13 +1085,13 @@
         "kind": "Rectangle",
         "extent": {
           "kind": "Point",
-          "x": 139.267578125,
+          "x": 134.9958038330078,
           "y": 55.0
         },
         "topLeft": {
           "kind": "Point",
-          "x": 616.5050000000001,
-          "y": 36.5
+          "x": 618.5050000000001,
+          "y": 53.5
         }
       },
       "state": {
@@ -1099,6 +1105,7 @@
         "kind": "WizardStepModel",
         "namespace": "FoldChange",
         "description": "",
+        "appDesignType": "fc.2groups_super_pairing_control",
         "factors": [
           {
             "kind": "MappingFactor",
@@ -1107,7 +1114,13 @@
             "isSingle": true,
             "description": "",
             "factorName": "Measurement",
-            "factors": [],
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Measurement",
+                "type": "double"
+              }
+            ],
             "isRequired": true
           },
           {
@@ -1117,7 +1130,13 @@
             "isSingle": false,
             "description": "",
             "factorName": "Variable",
-            "factors": [],
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Variable",
+                "type": "string"
+              }
+            ],
             "isRequired": true
           },
           {
@@ -1127,7 +1146,13 @@
             "isSingle": false,
             "description": "",
             "factorName": "Supergroup",
-            "factors": [],
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Supergroup",
+                "type": "string"
+              }
+            ],
             "isRequired": true
           },
           {
@@ -1137,7 +1162,13 @@
             "isSingle": false,
             "description": "",
             "factorName": "Pair",
-            "factors": [],
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Pair",
+                "type": "string"
+              }
+            ],
             "isRequired": true
           },
           {
@@ -1147,7 +1178,13 @@
             "isSingle": false,
             "description": "",
             "factorName": "Group",
-            "factors": [],
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Group",
+                "type": "string"
+              }
+            ],
             "isRequired": true
           }
         ],
@@ -1160,15 +1197,132 @@
               "kind": "NamedFilter",
               "logical": "and",
               "not": false,
-              "filterExprs": [],
+              "filterExprs": [
+                {
+                  "kind": "FilterExpr",
+                  "filterOp": "equals",
+                  "stringValue": "control",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "Group",
+                    "type": "string"
+                  }
+                }
+              ],
               "name": "Group"
             },
             "isRequired": false
           }
         ],
         "steps": [],
-        "defaultFactors": [],
-        "defaultFilters": []
+        "defaultFactors": [
+          {
+            "kind": "MappingFactor",
+            "name": "Measurement",
+            "type": "double",
+            "isSingle": true,
+            "description": "",
+            "factorName": "Measurement",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Measurement",
+                "type": "double"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Variable",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Variable",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Variable",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Supergroup",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Supergroup",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Supergroup",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Pair",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Pair",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Pair",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          },
+          {
+            "kind": "MappingFactor",
+            "name": "Group",
+            "type": "string",
+            "isSingle": false,
+            "description": "",
+            "factorName": "Group",
+            "factors": [
+              {
+                "kind": "Factor",
+                "name": "Group",
+                "type": "string"
+              }
+            ],
+            "isRequired": true
+          }
+        ],
+        "defaultFilters": [
+          {
+            "kind": "MappingFilter",
+            "name": "Group",
+            "description": "",
+            "namedFilter": {
+              "kind": "NamedFilter",
+              "logical": "and",
+              "not": false,
+              "filterExprs": [
+                {
+                  "kind": "FilterExpr",
+                  "filterOp": "equals",
+                  "stringValue": "control",
+                  "factor": {
+                    "kind": "Factor",
+                    "name": "Group",
+                    "type": "string"
+                  }
+                }
+              ],
+              "name": "Group"
+            },
+            "isRequired": false
+          }
+        ]
       }
     },
     {
@@ -1201,8 +1355,8 @@
         },
         "topLeft": {
           "kind": "Point",
-          "x": 641.5050000000001,
-          "y": -68.5
+          "x": 639.5050000000001,
+          "y": -40.5
         }
       },
       "state": {
@@ -1221,7 +1375,7 @@
   ],
   "offset": {
     "kind": "Point",
-    "x": 48.0,
-    "y": 102.0
+    "x": -78.0,
+    "y": 196.0
   }
 }
