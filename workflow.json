@@ -1115,8 +1115,8 @@
       },
       "model": {
         "kind": "WizardStepModel",
-        "namespace": "FoldChange",
-        "description": "",
+        "namespace": "FC",
+        "description": "Calculates the ratio (fold change) between a control and treatment condition.",
         "appDesignType": "fc.2groups_super_pairing_control",
         "factors": [
           {
